@@ -17,5 +17,16 @@ public class Module1 {
   public void uncovered() {
     System.out.println("This method is not covered");
   }
+	
+  
+    public int multiply(int firstNumber, int secondNumber) {
+
+        return firstNumber * secondNumber;
+    }
+
+    public int subtract(int firstNumber, int secondNumber) {
+        return firstNumber - secondNumber;
+    }
+
 
 }
