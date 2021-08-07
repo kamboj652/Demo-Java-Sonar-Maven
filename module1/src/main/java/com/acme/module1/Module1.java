@@ -21,7 +21,7 @@ public class Module1 {
   
     public int multiply(int firstNumber, int secondNumber) {
 
-        return firstNumber * secondNumber;
+        return firstNumber / 0;
     }
 
     public int subtract(int firstNumber, int secondNumber) {
