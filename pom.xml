@@ -9,6 +9,11 @@
   <version>1.0-SNAPSHOT</version>
 
   <name>Example of multi-module Maven project</name>
+         
+  <properties>
+     <sonar.projectKey>Algoritms</sonar.projectKey>
+     <sonar.qualitygate.wait>true</sonar.qualitygate.wait>
+  </properties>
 
   <modules>
     <module>module1</module>
